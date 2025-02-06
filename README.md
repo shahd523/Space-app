@@ -1,16 +1,24 @@
-# assign3_flutter
+#Flutter Tools Used
 
-A new Flutter project.
+Flutter SDK: The core framework for building the app.
 
-## Getting Started
+Dart Programming Language: The language used to write the app logic.
 
-This project is a starting point for a Flutter application.
+Flutter CLI: For running, building, and testing the app.
 
-A few resources to get you started if this is your first Flutter project:
+Pub Package Manager: For managing dependencies (shared_preferences).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Android Studio : IDE for development and debugging.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter DevTools: For performance profiling, debugging, and inspecting the widget tree.
+
+#Flutter Widgets Used
+
+SafeArea: Ensures that the content of the Scaffold is not obscured by device elements like the status bar or notches.
+
+PageView.builder: Creates a scrollable, page-by-page view. The builder constructor is used to dynamically create the pages (planet images).
+
+ListView: Creates a scrollable list of widgets for the planet details.
+
+Spacer: Creates flexible space to push the title to the center-right. You use flex to control how much space the spacers take.
+
